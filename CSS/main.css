@@ -1,0 +1,43 @@
+	.container{
+		width:600px;
+		margin: 0 auto;
+		font-family:sans-serif;
+	}
+	#pokeHistory{
+		height:90px;
+		width:300px;
+		overflow:scroll;
+		border:1px solid black;
+		margin:40px 0;
+	}
+	#header h2, p{
+		margin:5px;
+	}
+	#header{
+		margin-top:20px;
+	}
+	#header a{
+		float:right;
+		vertical-align:top;
+	}
+	table{
+		vertical-align: top;
+		border-collapse: collapse;
+		border:1px solid black;
+		font-size:12px;
+		font-family:sans-serif;
+		margin:10px;
+	}
+	td, th {
+		border:1px solid black;
+		padding:5px;
+	}
+	tr:nth-child(odd){
+		background-color:#cccccc;
+	}
+	th{
+		background-color:#999999;
+	}
+	button{
+		background-color:white;
+	}
